@@ -14,8 +14,8 @@ jobs:
 
       - name: Make a commit
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Ze-rith"
+          git config user.email "221796529+Ze-rith@users.noreply.github.com"
           date >> log.txt
           git add log.txt
           git commit -m "chore: auto commit $(date +'%Y-%m-%d')"
